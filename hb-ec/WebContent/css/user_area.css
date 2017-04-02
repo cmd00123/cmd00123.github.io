@@ -1,0 +1,125 @@
+@CHARSET "UTF-8";
+/*右边用户界面的属性*/
+.user_nav{
+	height:400px;
+	width:210px;
+	clear:both;
+	position:absolute;
+	background-color:#fff;
+	z-index:12;
+	right: 142px;
+	top: 230px;
+}
+/*快讯区域的属性*/
+.message{
+	height:210px;
+	width:209px;
+}
+/*”快讯“字体*/
+.message-1{
+	color: #333;
+	font-size: 14px;
+	border-bottom: 3px #d2364c solid;
+	width: 190px;
+	margin-left: 7px;
+	font-weight: bold;
+	padding: 4px 0px 6px 8px;
+	}
+/*快讯栏目下的属性*/
+.message-2{
+	height: 126px;
+	width: 198px;
+	margin-top: 10px;
+	border-bottom: 3px solid #d2364c;
+	margin-left: 7px;
+	}
+/*【抢购】 【活动】等的属性*/
+.message-title{
+	color:#fc6b53;
+	font-weight:bold;
+}
+/*【抢购】等 介绍语句的属性*/
+.message-font{
+	color: #d2364c;
+	font-size: 11px;
+	padding: 2px 0px 2px 0px;
+	padding-top: 3px;
+}
+.message .message-2 .message-font:hover{
+	color:#2b2b2b;
+}
+/*用户状态区域 */
+.user_rg{
+	height: 110px;
+	width: 210px;
+	margin-top: -36px;
+}
+/*用户头像区域*/
+.user_head_img{
+	margin: 6px 8px;
+}
+/*用户头像属性*/
+.user_head_img img{
+	height: 55px;
+	width: 55px;
+	display: block;
+	border-radius: 50px;
+	border: #d2364c 1px solid;
+	}
+/*hi句子的属性*/
+.user-message-1{
+	font-size: 14px;
+	color: #da6262;
+}
+/*查看今日活动的属性*/
+.user-message-2 a{
+	font-size: 10px;
+	color: #b7aaaa;
+	padding-top: 5px;
+	padding-left: 7px;
+	}
+/*登录语句列表的属性*/
+.user_message_ul{
+	width: 100px;
+	padding-top: 13px;
+	margin-left: 7px;
+	}
+/*用户按钮区域*/
+.user_btn{
+	    margin-left: -3px;
+}
+/*用户按钮属性设置*/
+.user_btn_1 {
+	background-color: #d2364c;
+	border: 0px;
+	color: #fff;
+	margin: 2px 0px 0px 11px;
+	padding: 3px 16px 3px 16px;
+	font-size: 13px;
+	text-align: center;
+}
+/*分类栏区域*/
+.user_dis{
+	width: 210px;
+	height: 117px;
+	border-top: 1px #d2364c solid;
+	}
+/*分类栏项目*/
+.user_dis_1{
+	width: 69px;
+	height: 56.2px;
+	border: 0.5px #d2364c solid;
+}
+/*分类栏项目的图标*/
+.user_dis_1 img{
+	width: 35px;
+	height: 35px;
+	text-align: center;
+	padding-left: 18px;
+	padding-top: 5px;
+}
+/*分类栏项目字体的属性*/
+.user_dis_font{
+	margin: -1px 0px 0px 23px;
+	color: #bf6b6b;
+}
